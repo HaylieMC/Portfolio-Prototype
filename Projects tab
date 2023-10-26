@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<!-- Add internal style to head-->
+	
+	<style>
+		
+		body {
+		  background-color: #ffc472;
+		  background-size: cover;
+		}
+		</style>
+
+	<style>
+		body {
+				background-color: #ffc472;
+			 }
+		
+		h1 {
+			 font-size: 3em;
+			 text-align: center;
+			 color: #000000;
+}
+</style>		
+</head>
+<body>
+
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="./contact.html">Contact</a></li>
+</ul>
+
+</body>
+</html>
+
+<!-- Lesson 10 Github requirements to add heading-->
+<html>
+<head>
+<style>
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+	
+h1 {
+  position: fixed;
+  right: 100px;
+  top: -30px;
+  color: rgb(215, 210, 210);
+}
+</style>
+</head>
+<body>
+  
+<div class="content">
+    <h3>Other Work</h3>
+    <p style="font-size: 80%;">These are other Projects I've done. To demonstrate the variety of the work I've completed thus far, I wanted to include them.
+       Since the work I've done reflects my growth, in my perspective, there is a clear distinction between my earlier and more recent projects. 
+      It has been a true pleasure developing and honing my skills as a student at Wake Technical Community College.</p>
+    <div class="row">
+      <div class="column">
+        <img src="MoralesCarrasquillo-Type-only-Poster.jpg" alt="Gun Violence" style="width:100%" class="Responsive">
+      </div>
+      <div class="column">
+        <img src="MoralesCarrasquillo-travelpost.jpg" alt="Strawberry Festival" style="width:100%" class="Responsive">
+      </div>  
+      <div class="column">
+        <img src="MoralesCarrasquilloHaylieMenu.jpg" alt="Cafe Menu" style="width:100%" class="Responsive">
+      </div> 
+      <div class="column">
+        <img src="Book Cover Design Setup Complete.jpg" alt="Book Cover" style="width:100%" class="Responsive">
+      </div>
+  </div>
+
+  <footer>
+	<ul>
+	  <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+	  <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a></li>
+	</ul>
+  </footer>
+
+  <link rel="stylesheet" href="system.css">
+</body>
+</html>
