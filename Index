@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+  </ul>
+  
+<!-- MAIN (Center website) -->
+<div class="main">
+  <h1>Haylie Morales Carrasquillo</h1>
+  <hr>
+  
+  <h2>PORTFOLIO</h2>
+  <p>My major is Graphic Design Advertising, 
+    and this collage displays my growth during my time at Wake Technical Community College.</p>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="Job-Resume.png" alt="Resume" style="width:100%" class="Responsive">
+        <h3>Resume</h3>
+        <p style="font-size: 80%;">This website was made by myself using Web Design. 
+          After much effort and some time spent learning how to use the proper CSS, 
+          I was able to make what is now one of my favorite websites of a resume.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="MoralesCarrasquillo_pj2-Wedding Invitation.jpg" alt="Wedding Invitation" style="width:100%" class="Responsive">
+        <h3>Wedding Invitation</h3>
+        <p style="font-size: 80%;">When I began this project, my first thought was it would be a perfect learning experience. 
+          Not usually do I get the chance to create wedding invitations but it was a very interesting process to learn from.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="MoralesCarrasquillo-Composite.jpg" alt="Composite" style="width:100%" class="Responsive">
+        <h3>Composite</h3>
+        <p style="font-size: 80%;">My initial impression upon starting this project was that it would be a wonderful opportunity for learning.
+           I don't often get to design wedding invitations, so it was a fascinating process to learn from.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="MoralesCarrasquillo-Pj3.jpg" alt="Zoo Flyer" style="width:100%" class="Responsive">
+        <h3>Zoo Flyer</h3>
+        <p style="font-size: 80%;">Probably my most entertaining piece to date. I spent a lot of time researching the various zoo flyer designs as well as the animals kept at the North Carolina Zoo. 
+          It was so fun learning more about the zoo, and messing around with different designs for the flyer.</p>
+      </div>
+    </div>
+  </div>
+  
+ 
+  <link rel="stylesheet" href="system.css">
+  <!-- END MAIN -->
+  </div>
+  </div>
+
+  <html> 
+  <body>
+    <footer>
+      <ul>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+  </body>
+  </html>
